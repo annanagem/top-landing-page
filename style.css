@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+.content {
+padding: 0px 180px;
+}
+
+.content.header {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    background-color: #1f2937;
+    color: white;
+
+}
+
+.logo {
+    font-weight: 800;
+    font-size: 24px;
+    
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 24px;
+    color: #E5E7EB;
+    text-align: center;
+}
+
+.content.one {
+    display: flex;
+    color: white;
+    background-color: #1f2937;
+    gap: 24px;
+    padding-bottom: 80px;
+    padding-top: 80px;
+}
+
+.one-left {
+    flex: 1;
+}
+
+.one-right {
+    flex: 1;
+    display: flex;
+    background-color: gray;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0px;
+    padding: 0px 49px;
+}
+
+#topbutton {
+    background-color: #3882f6;
+    border-radius: 8px;
+    color: white;
+    padding: 5px 24px;
+    border: 0;
+}
+
+
+.content.two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+#one {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+#two {
+color: black;
+text-align: center;
+}
+
+
+h2 {
+    text-align: center;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    margin-bottom: -20px;
+}
+
+img {
+    height: auto;
+    width: 200px;
+    margin-bottom: -50px;
+}
+
+.content.three {
+    background-color: #E5E7EB;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#quote {
+    font-style: italic;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+}
+
+#author {
+    font-weight: bold;
+    text-align: right;
+}
+
+.content.four {
+    color: white;
+}
+
+.box {
+    border-radius: 8px;
+    background-color: #3882f6;
+    padding: 10px 56px;
+    display: flex;
+    align-items: center;
+    margin: 48px auto;
+    justify-content: space-between;
+}
+
+#lowbutton {
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 8px;
+    padding: 5px 30px;
+}
+
+#action {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: -10px;
+}
+
+#signup {
+    color: #E5E7EB
+}
+
+.content.footer {
+    background-color: #1f2937;
+    color: #E5E7EB;
+    text-align: center;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
